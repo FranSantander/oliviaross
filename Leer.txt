@@ -1,1 +1,22 @@
 Es un comentario desde github
+
+Resumen
+1 En Github crear repositorio
+2 copiar repositorio: https://github.com/FranSantander/oliviaross/blob/4cea350c845b3971ced9570a1c5e82a9212e1f1f/Leer.txt
+3 Crear la carpeta contenedora EJ: en el escritorio
+4 Boton derecho del mouse git bash here
+5 $git init  (linea de comando)
+6 git remote add origin https://github.com/usuario/repositorio.git
+7 Cambiamos a rama main
+$git branch -M main
+Si queremos subir arhcivos desde nuestro repo local al repo externo github 
+1) $git add archivo
+   $git add. (si queremos adicionar todos los archivos)
+2) $git commit -m "pequeño comentario de la transacción"
+3) $git push u- origin main
+
+Si queremos actualizar la información desde repo externo al repo local 
+$git pull
+
+Si queremos clonar un repositorio externo a un repo local
+$git cline https://github.com/usuario/repositio.git
